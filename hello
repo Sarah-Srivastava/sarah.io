@@ -1,0 +1,149 @@
+<DOCTYPE html>
+    <html lang="en">
+<head>
+    <title>Hello World </title> 
+
+    <style>
+        h1 {
+            border: 3px solid white;
+            color:blueviolet;
+            text-align: center;
+            margin-left:30px;
+        }
+        h4 {
+            color:whitesmoke;
+            text-align: left;
+
+        }    
+        h3 {
+            border: 2px dotted whitesmoke;
+            text-align: center;
+            color: whitesmoke;
+        }
+        body {
+            display: flex;
+            flex-wrap: wrap;
+            background-color: plum;
+            text-align: center;
+        }
+        #box { 
+                display: flex;
+                flex-wrap: wrap;
+                float:left;  
+                background:skyblue; 
+                text-align: justify;
+                list-style: inside;
+                margin: 30px;
+                padding: 10px;
+                height:150px;
+                width: 500px
+                
+            } 
+         
+        #block { 
+                display: flex;
+                flex-wrap: wrap;
+                float:right; 
+                background:skyblue; 
+                text-align: justify;
+                list-style: inside;
+                margin: 30px;
+                padding: 10px;
+                height:150px;
+                width: 500px
+                
+            } 
+        
+    
+        form {
+            background-color: lightskyblue; 
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            margin: auto;
+            padding: 10px;
+            height:450px;
+            width: 600px;
+        }
+        button {
+            background-color: violet;
+        }
+        button:hover {
+            background-color: turquoise;
+        }
+
+    </style>
+</head>> 
+<body>
+    <h1>Hey, There! </h1>
+    <h4><marquee>This WebPage Is Brought To You By Sarah</marquee></h4>
+    <div id="box">
+        <h4>Things To Know Before We Get Started</h4>
+    <ul>
+        <li>This Is A Trial</li>
+        <li>This Is A Smart Way To Tell Me I'm Your Favourite Child</li>
+        <li>Note To Shrey: Don't Get Offended</li>
+    </ul>
+</div>
+<div id="block">
+<h4>
+    Now Some Rules For The Following Form 
+</h4>
+    
+    <ol>
+        <li>Answer All Questions Honestly</li>
+        <li>Don't Be Politically Correct</li>
+        <li>Your DAUGHTER Made This So She Should Be Favourite :)</li>
+    </ol>
+</div>
+    <img src="C:\Users\Sarah Srivastava\Pictures\2019-04\IMG_E0438.JPG" alt="A Family Photo" height="400" width="300" margin-left="150px">
+
+        <form>
+            <div>
+                <h4>Please Enter Your Name And A Password</h4>
+                <input type="text" placeholder="Full Name" name="Name">
+            <input type="password" placeholder="password" name="password"> 
+            </div>
+            <div>
+               <h4>Shrey's Favourite Colour</h4> 
+                <input type="radio" name="colour" value="Red">Red
+                <input type="radio" name="colour" value="Blue">Blue
+                <input type="radio" name="colour" value="Orange">Orange
+                <input type="radio" name="colour" value="Black">Black
+                <input type="radio" name="colour" value="White">White
+                <input type="radio" name="colour" value="Purple">Purple
+            </div>
+
+            <div>
+                <h4>Sarah's Favourite Colour</h4>
+                <input name="colour" value="Red" type="checkbox">Red
+                <input type="checkbox" name="colour" value="Blue">Blue
+                <input type="checkbox" name="colour" value="Orange">Orange
+                <input type="checkbox" name="colour" value="Black">Black
+                <input type="checkbox" name="colour" value="White">White
+                <input type="checkbox" name="colour" value="Purple">Purple
+            </div>
+                
+        
+
+            <div>
+               <h4> Now For The Real Question</h4>
+               Who Is Your Favourite Child?
+                <input name="Favourite Child" placeholder="Favourite Child" list="Children">
+                <datalist id="Children">
+                    <option value="Sarah"></option>
+                    <option value="Shrey"></option>
+    
+                </datalist>
+            </div>
+            <h4>Click Here To Submit</h4> 
+            <button>Submit</button>
+
+        </form>
+
+        <h3>If you clicked 'Shrey' from the drop down menu, you are wrong. Try Again. However,
+            If you clicked 'Sarah' from the drop down menu, well done, you are SUPERIOR
+        </h3>
+
+    
+    
+</body>
+</html>
